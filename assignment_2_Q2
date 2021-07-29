@@ -1,4 +1,5 @@
-### 2.check whether a string is a pangram ###
+#Assignment no 03
+#check whether a string is a pangram ###
 def check_pangram(arg):
     if len(set('lowercase') - set(arg.lower())) == 0:
         return True
